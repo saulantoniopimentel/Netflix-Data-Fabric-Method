@@ -1,0 +1,35 @@
+{
+    "users": [
+        {
+            "username": "Alex",
+            "access": "yes",
+            "DDs":["DD1","DD2"],
+            "role": "gral_user"
+        },
+        {
+            "username": "LYair90",
+            "access": "yes",
+            "DDs":["DD1","DD2"],
+            "role": "spi_user"
+        },
+        {
+            "username": "joseph",
+            "access": "no",
+            "DDs":["DD1","DD2"],
+            "role": "pi_user"
+        },
+        {
+            "username": "admin",
+            "access": "yes",
+            "DDs":["DD1","DD2"],
+            "role": "admin"
+        },
+        {
+            "username": "auditor",
+            "access": "yes",
+            "DDs":["DD1","DD2"],
+            "role": "custom_user"
+        }
+    ]
+}
+

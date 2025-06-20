@@ -1,0 +1,29 @@
+{
+  "roles":[
+    {
+      "role":"admin",
+      "cols": null,
+      "tag":"All"
+    },
+    {
+      "role":"gral_user",
+      "cols":null,
+      "tag": "Gral"
+    },
+    {
+        "role":"pi_user",
+        "cols":null,
+        "tag":"PI"
+    },
+    {
+        "role":"spi_user",
+        "cols":null,
+        "tag":"SPI"
+    },
+    {
+      "role":"custom_user",
+      "cols":["1","2","3"],
+      "tag":null
+  }
+  ]
+}

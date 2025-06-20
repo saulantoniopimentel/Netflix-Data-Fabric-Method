@@ -1,0 +1,162 @@
+{
+    "DD1": {
+        "PI":[ 
+            {
+                "nickname": "Id",
+                "golden_name": "show_id",
+                "DBD": "netflix.csv",
+                "data_type": "string",
+                "data_tag": "PI",
+                "data_description":"Description"
+            },
+            {
+                "nickname": "Tipo",
+                "golden_name": "type",
+                "DBD": "netflix.csv",
+                "data_type": "string",
+                "data_tag": "PI",
+                "data_description":"Description"
+            },
+            {
+                "nickname": "País",
+                "golden_name": "country",
+                "DBD": "netflix.csv",
+                "data_type": "string",
+                "data_tag": "PI",
+                "data_description":"Description"
+            }
+        ],
+       "SPI": [
+            {
+                "nickname": "Título",
+                "golden_name": "Title",
+                "DBD": "netflix.csv",
+                "data_type": "string",
+                "data_tag": "SPI",
+                "data_description":"Description"
+            },
+            {
+                "nickname": "Director",
+                "golden_name": "director",
+                "DBD": "netflix.csv",
+                "data_type": "string",
+                "data_tag": "SPI",
+                "data_description":"Description"
+            },
+            {
+                "nickname": "Cast",
+                "golden_name": "cast",
+                "DBD": "netflix.csv",
+                "data_type": "string",
+                "data_tag": "SPI",
+                "data_description":"Description"
+            }
+       ],
+        "Gral": [
+            {
+                "nickname": "Agregada",
+                "golden_name": "date_added",
+                "DBD": "netflix.csv",
+                "data_type": "string",
+                "data_tag": "Gral",
+                "data_description":"Description"
+            },
+            {
+                "nickname": "Lanzamiento",
+                "golden_name": "release_year",
+                "DBD": "netflix.csv",
+                "data_type": "string",
+                "data_tag": "Gral",
+                "data_description":"Description"
+            },
+            {
+                "nickname": "Rating",
+                "golden_name": "rating",
+                "DBD": "netflix.csv",
+                "data_type": "string",
+                "data_tag": "Gral",
+                "data_description":"Description"
+            },
+            {
+                "nickname": "Duración",
+                "golden_name": "duration",
+                "DBD": "netflix.csv",
+                "data_type": "string",
+                "data_tag": "Gral",
+                "data_description":"Description"
+            },
+            {
+                "nickname": "Listada",
+                "golden_name": "listed_in",
+                "DBD": "netflix.csv",
+                "data_type": "string",
+                "data_tag": "Gral",
+                "data_description":"Description"
+            },
+            {
+                "nickname": "Descripción",
+                "golden_name": "description",
+                "DBD": "netflix.csv",
+                "data_type": "string",
+                "data_tag": "Gral",
+                "data_description":"Description"
+            }
+        ]
+   },
+    "DD2": {
+        "PI":[ 
+            {
+                "nickname": "Titulo",
+                "golden_name": "Title",
+                "DBD": "IMDb Top TV Series.csv",
+                "data_type": "string",
+                "data_tag": "public",
+                "data_description":"Description"
+            },
+            {
+                "nickname": "Año",
+                "golden_name": "Year",
+                "DBD": "IMDb Top TV Series.csv",
+                "data_type": "string",
+                "data_tag": "public",
+                "data_description":"Description"
+            }
+        ],
+        "SPI": [
+            {
+                "nickname": "Parental",
+                "golden_name": "Parental Rating",
+                "DBD": "IMDb Top TV Series.csv",
+                "data_type": "string",
+                "data_tag": "public",
+                "data_description":"Description"
+            }
+        ],
+        "Gral": [
+            {
+                "nickname": "Rating",
+                "golden_name": "Rating",
+                "DBD": "IMDb Top TV Series.csv",
+                "data_type": "float",
+                "data_tag": "Gral",
+                "data_description":"Description"
+            },
+            {
+                "nickname": "Sobre",
+                "golden_name": "Description",
+                "DBD": "IMDb Top TV Series.csv",
+                "data_type": "string",
+                "data_tag": "Gral",
+                "data_description":"Description"
+            },
+            {
+                "nickname": "Votos",
+                "golden_name": "Number of Votes",
+                "DBD": "IMDb Top TV Series.csv",
+                "data_type": "string",
+                "data_tag": "Gral",
+                "data_description":"Description"
+            }
+        ]
+    }
+}
